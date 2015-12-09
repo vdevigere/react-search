@@ -1,10 +1,10 @@
 
 module.exports = {
-  //context: "src",
   entry: {
     search:"./src/search",
     productGrid: "./src/product-grid",
-    productThumbnail: "./src/product-thumbnail"
+    productThumbnail: "./src/product-thumbnail",
+    foundation: "foundation-sites/foundation-sites.scss"
   },
   output: {
     path: __dirname,
